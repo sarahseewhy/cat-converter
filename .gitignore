@@ -1,5 +1,7 @@
 # Intellij
+./build
 .idea/
+.gradle/
 *.iml
 *.iws
 
