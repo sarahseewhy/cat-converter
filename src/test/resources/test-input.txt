@@ -1,0 +1,12 @@
+meow is I
+purr is V
+hiss is X
+yowl is L
+meow meow Mackerel is 34 Credits
+meow purr Salmon is 57800 Credits
+hiss hiss Tuna is 3910 Credits
+how much is hiss yowl meow meow ?
+how many Credits is meow purr Mackerel ?
+how many Credits is meow purr Salmon ?
+how many Credits is meow purr Tuna ?
+how much wood could a woodchuck chuck if a woodchuck could chuck wood ?
