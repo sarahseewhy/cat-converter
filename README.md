@@ -42,7 +42,7 @@ meow purr Tuna is 782 Credits
 I have no idea what you are talking about
 ```
 
-Constraints: I could not use Mockito or dependency injection and I had self-imposed time limit.
+Constraints: I could not use Mockito or dependency injection and I had a self-imposed time limit.
 
 ## Running Program
 
@@ -50,12 +50,10 @@ Before running the program please ensure you have Gradle version 2.4 or greater 
 
 To run the program please use the following steps:
 
-1. Open your terminal of choice and navigate to where the download zip resides.
-2. Unzip the provided zipped file.
-3. Navigate to the directory (`cat-currency`).
-4. In the command line run the `gradle run` command.
-5. Review the expected input and output in the terminal.
-6. To run the tests, run `gradle clean build` in the command line.
+1. Fork the repo
+2. In the command line run the `gradle run` command.
+3. Review the expected input and output in the terminal.
+4. To run the tests, run `gradle clean build` in the command line.
 
 
 ## Approach

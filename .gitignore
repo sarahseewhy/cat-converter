@@ -1,5 +1,5 @@
 # Intellij
-./build
+build/
 .idea/
 .gradle/
 *.iml
