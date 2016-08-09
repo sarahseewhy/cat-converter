@@ -10,7 +10,7 @@ I would a technical test. It's based on a few conversion katas which converts in
 
 Cats have taken over the galaxy and are now the dominant species. Unimpressed with human currency, the feline leaders
 decide to convert Arabic numbers to "cat currency". In order to exist in this new cat world order humans must create
-a cat to Arabic number converter so they can participate in the cat economy as lowly fish merchants.
+a cat-currency-to-Arabic-number converter so they can participate in the cat economy as lowly fish merchants.
 
 This is one such converter.
 
@@ -50,7 +50,7 @@ Before running the program please ensure you have Gradle version 2.4 or greater 
 
 To run the program please use the following steps:
 
-1. Fork the repo
+1. Clone the repository and navigate to that directory.
 2. In the command line run the `gradle run` command.
 3. Review the expected input and output in the terminal.
 4. To run the tests, run `gradle clean build` in the command line.
@@ -93,7 +93,6 @@ Currency Converter
 * retrieves numeric value of currency word
 * generates conversion response with original cat currency
 * generates conversion response with converted Arabic numbers
-
 
 Currency Calculator
 * sums converted arabic numbers
@@ -221,10 +220,6 @@ be better handled by first converting the words to numbers and then applying the
 #### Automation
 
 I'd refactor to automate the input file either in a config file or as a parameter to the gradle task.
-
-#### Security
-
-I'd add a schema validator to extract the validation logic.
 
 #### General
 
