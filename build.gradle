@@ -1,4 +1,4 @@
-group 'merchants-guide'
+group 'cat-converter'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -6,7 +6,7 @@ apply plugin: 'maven'
 apply plugin: 'application'
 apply plugin: 'eclipse'
 
-mainClassName = 'com.merchant.Application'
+mainClassName = 'com.converter.Application'
 
 sourceCompatibility = 1.8
 
