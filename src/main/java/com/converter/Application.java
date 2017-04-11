@@ -30,7 +30,6 @@ public class Application {
         final List<ConversionRequest> conversionRequests = conversionProcessor.processRequests(INPUT_PATH);
 
         for (ConversionRequest conversionRequest : conversionRequests) {
-            System.out.println(conversionRequest.getCatCurrency().get(0));
 
             inputFormatter.formatCatCurrency(conversionRequest);
             rulesApplicator.applyCurrencyRules(conversionRequest);
@@ -38,7 +37,6 @@ public class Application {
             currencyCalculator.calculateCurrency(conversionResponse);
             outputFormatter.formatConversionResponse(conversionResponse);
 
-            System.out.println(conversionResponse.getCatCurrency().get(0));
         }
 
     }

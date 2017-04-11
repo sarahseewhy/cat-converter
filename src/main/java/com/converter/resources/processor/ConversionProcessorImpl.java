@@ -42,10 +42,8 @@ public class ConversionProcessorImpl implements ConversionProcessor {
 
         File file;
         try {
-
             ClassLoader classLoader = getClass().getClassLoader();
             file = new File(classLoader.getResource(filePath).getFile());
-
         } catch (Exception e) {
             throw new ResourceException("Cannot process invalid file: " + filePath);
         }
@@ -71,7 +69,7 @@ public class ConversionProcessorImpl implements ConversionProcessor {
     }
 
     private void generateConversionRequests(List<String> fileInput, List<ConversionRequest> conversionRequests) {
-        fileInput.stream().forEach(line -> {
+        fileInput.forEach(line -> {
             List<String> catCurrency = new ArrayList<>();
             catCurrency.add(line);
             ConversionRequest conversionRequest = new ConversionRequest();
