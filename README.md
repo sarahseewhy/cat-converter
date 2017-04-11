@@ -42,8 +42,6 @@ meow purr Tuna is 782 Credits
 I have no idea what you are talking about
 ```
 
-Constraints: I could not use Mockito or dependency injection and I had a self-imposed time limit.
-
 ## Running Program
 
 Before running the program please ensure you have Gradle version 2.4 or greater and Java 8 on your machine.
