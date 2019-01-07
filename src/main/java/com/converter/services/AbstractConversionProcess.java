@@ -8,15 +8,15 @@ public class AbstractConversionProcess {
         return isTuna(word) || isMackerel(word) || isSalmon(word);
     }
 
-    protected boolean isSalmon(String word) {
+    private boolean isSalmon(String word) {
         return word.equals(SALMON.value());
     }
 
-    protected boolean isMackerel(String word) {
+    private boolean isMackerel(String word) {
         return word.equals(MACKEREL.value());
     }
 
-    protected boolean isTuna(String word) {
+    private boolean isTuna(String word) {
         return word.equals(TUNA.value());
     }
 }

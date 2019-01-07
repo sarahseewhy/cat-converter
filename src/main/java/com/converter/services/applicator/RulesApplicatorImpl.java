@@ -51,7 +51,7 @@ public class RulesApplicatorImpl implements RulesApplicator {
         }
     }
 
-    private List<String> applyReducerCombination(List<String> catCurrency, String reducer) {
+    private void applyReducerCombination(List<String> catCurrency, String reducer) {
 
         int reducerPosition = catCurrency.indexOf(reducer);
         int nextPosition = reducerPosition + 1;
@@ -67,7 +67,6 @@ public class RulesApplicatorImpl implements RulesApplicator {
             catCurrency.remove(nextPosition);
         }
 
-        return catCurrency;
     }
 
     private String concatenateValues(List<String> catCurrency, int reducerPosition, int nextPosition) {

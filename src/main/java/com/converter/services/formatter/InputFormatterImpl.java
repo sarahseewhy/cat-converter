@@ -13,7 +13,7 @@ import static com.converter.util.CatCurrency.values;
 public class InputFormatterImpl implements InputFormatter {
 
     @Override
-    public ConversionRequest formatCatCurrency(ConversionRequest conversionRequest) throws ServiceException {
+    public ConversionRequest formatCatCurrency(ConversionRequest conversionRequest) {
 
         final List<String> formattedCatCurrency = new ArrayList<>();
 

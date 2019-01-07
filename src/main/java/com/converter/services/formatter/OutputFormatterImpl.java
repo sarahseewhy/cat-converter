@@ -39,7 +39,7 @@ public class OutputFormatterImpl extends AbstractConversionProcess implements Ou
 
         final StringBuilder singleSentence = new StringBuilder();
 
-        catCurrency.stream().forEach(element -> singleSentence.append(element).append(SPACE));
+        catCurrency.forEach(element -> singleSentence.append(element).append(SPACE));
 
         addIsVerbTense(singleSentence);
 

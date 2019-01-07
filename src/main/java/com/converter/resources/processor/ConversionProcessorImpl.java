@@ -10,6 +10,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Objects;
 import java.util.stream.Collectors;
 
 public class ConversionProcessorImpl implements ConversionProcessor {
@@ -43,7 +44,7 @@ public class ConversionProcessorImpl implements ConversionProcessor {
         File file;
         try {
             ClassLoader classLoader = getClass().getClassLoader();
-            file = new File(classLoader.getResource(filePath).getFile());
+            file = new File(Objects.requireNonNull(classLoader.getResource(filePath)).getFile());
         } catch (Exception e) {
             throw new ResourceException("Cannot process invalid file: " + filePath);
         }
