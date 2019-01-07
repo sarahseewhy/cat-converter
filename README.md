@@ -53,8 +53,17 @@ To run the program please use the following steps:
 3. Review the expected input and output in the terminal.
 4. To run the tests, run `gradle clean build` in the command line.
 
+## Second Approach
 
-## Approach
+This is an exercise in revisiting and refactoring code I wrote which I haven't looked at in a few years. My goal is to improve the codebase where I can, re-familiarise myself with Java a bit, and learn about the refactoring process.
+
+There are two main aspects I'd like to address: the scalability and code complexity.
+
+Fear not, I do not believe we are facing an immanent over throw of international governments and economies by cats. I am, however, curious to see what this project would look like if I could add more currency words.
+
+I'd also like to reduce some of the complexity, I'm convinced I can do better. 
+
+## First Approach
 
 ### Breaking the problem down
 
